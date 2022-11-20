@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  display: block;
+  margin: auto;
+  /* display: flex; */
+  /* flex-flow: row wrap; */
+  /* align-items: center; */
+  /* justify-content: space-around; */
+  /* background-color: rgb(202, 173, 173); */
+}
+/* .head1 img {
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+header {
+  background-color: #ffea2a;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 30px;
+  justify-content: space-around;
+}
+header,
+footer,
+.left,
+.right {
+  font-size: 30px;
+  padding: 5%;
+  text-align: center;
+}
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+.menu ul li a:hover {
+  background-color: rgb(0, 132, 255);
+  color: red;
+}
+table {
+  border-collapse: collapse;
+}
+.contenido {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-between; */
+}
+.left {
+  flex: 1 1 auto;
+  background-color: rgb(0, 167, 233);
+}
+.left ul li{
+    display: flex;
+}
+/* .left ul ul{
+    list-style: none;
+} */
+.left ul table tr td{
+    text-decoration: none;
+    background-color: maroon;
+    color: white;
+border-color: 10px blue solid;
+}
+.left ul table tr td a{
+    color: white;
+    text-decoration: none;
+}
+.left ul table tr td:hover{
+    background-color: rgba(128, 0, 0, 0.596);
+    border-right:5px khaki;
+}
+.right {
+  /* margin: 30px; */
+  display: block;
+  flex: 1 1 auto;
+  background-color: rgb(58, 156, 58);
+}
+.right p {
+  /* width: 60%; */
+  background-color: white;
+}
+.divparrafo p{
+    display: flex;
+    justify-content: space-evenly;
+}
+.divimg{
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    display: flex;
+    flex-flow: row wrap;
+  width: 100%;
+  background-color: orange;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+footer div ul li a img {
+  display: flex;
+  width: 80px;
+  list-style: none;
+  padding: 15px;
+}
+.piediv1 {
+
+}
+.piediv2 {
+    display: flex;
+    justify-content: space-between;
+}
+.right div {
+  display: flex;
+  flex-flow: row wrap;
+}
+/* .piepag h3{
+    background-color: orangered;
+} */
